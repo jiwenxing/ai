@@ -1,0 +1,78 @@
+{
+    "author": "Jverson <i@jverson.com>",
+    "description": "AI",
+    "extension": null,
+    "generator": "site",
+    "isbn": "",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "Jverson's Blog": "https://jverson.com"
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+       "github",
+       "github-buttons",
+       "disqus",
+       "todo",
+       "splitter",
+       "tbfed-pagefooter",
+       "page-toc-button",
+       "-sharing"
+    ],
+    "title": "Spring Boot",
+    "variables": {},
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/jiwenxing/ai"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "jiwenxing",
+                "repo": "ai",
+                "type": "star",
+                "size": "small",
+                "count": true
+              }, {
+                "user": "jiwenxing",
+                "repo": "ai",
+                "type": "fork",
+                "size": "small",
+                "count": true
+            }]
+        },
+        "disqus": {
+            "shortName": "jverson"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © jverson.com 2018"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        }
+    }
+}

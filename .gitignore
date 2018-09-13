@@ -40,3 +40,6 @@ test_projects/test_project_*
 rasa_nlu/tmbo_test.py
 .mypy_cache/
 *.tar.gz
+node_modules
+gh-pages
+_book

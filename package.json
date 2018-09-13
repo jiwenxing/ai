@@ -1,0 +1,31 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "ai learning",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "favicon": "rm -rf ./gh-pages/gitbook/images/favicon.ico && cp ./docs/favicon.ico ./gh-pages/gitbook/images/favicon.ico",
+    "dev": "gitbook serve ./docs ./gh-pages && npm run favicon",
+    "build": "gitbook build ./docs ./gh-pages && npm run favicon",
+    "deploy": "node ./scripts/deploy-gh-pages.js",
+    "publish": "npm run build && npm run deploy",
+    "port": "lsof -i :35729"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiwenxing/ai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiwenxing/ai/issues"
+  },
+  "homepage": "https://github.com/jiwenxing/ai#readme",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "gitbook-plugin-todo": "^0.1.3"
+  }
+}
