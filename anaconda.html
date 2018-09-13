@@ -1,0 +1,454 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Anaconda 安装和使用 · Spring Boot</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Jverson <i@jverson.com>">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"jiwenxing","repo":"ai","type":"star","size":"small","count":true},{"user":"jiwenxing","repo":"ai","type":"fork","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://jverson.com" target="_blank" class="custom-link">Jverson's Blog</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    Rasa NLU
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="rasa_nlu_chi_demo.html">
+            
+                <a href="rasa_nlu_chi_demo.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    Rasa_NLU_Chi 中文处理实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    Python Usage
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="anaconda.html">
+            
+                <a href="anaconda.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    Anaconda 安装和使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    Web Crawlers
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    使用 requests 爬取链家二手房数据
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    免费代理池使用
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Anaconda 安装和使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4F7F;&#x7528;-anaconda-&#x7BA1;&#x7406;-python-&#x5F00;&#x53D1;&#x73AF;&#x5883;">&#x4F7F;&#x7528; anaconda &#x7BA1;&#x7406; python &#x5F00;&#x53D1;&#x73AF;&#x5883;</h1>
+<hr>
+<h2 id="&#x70E6;&#x4EBA;&#x7684;-python-&#x73AF;&#x5883;&#x95EE;&#x9898;">&#x70E6;&#x4EBA;&#x7684; python &#x73AF;&#x5883;&#x95EE;&#x9898;</h2>
+<p>&#x4E00;&#x4E2A; python &#x73AF;&#x5883;&#x4E2D;&#x9700;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x89E3;&#x91CA;&#x5668;&#x8D1F;&#x8D23;&#x89E3;&#x91CA;&#x8FD0;&#x884C; python &#x811A;&#x672C;&#xFF0C; &#x53E6;&#x5916;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5305;&#x96C6;&#x5408;&#xFF08;site-packages &#x6587;&#x4EF6;&#x5939;&#xFF09;&#x3002;</p>
+<p>&#x9488;&#x5BF9;&#x89E3;&#x91CA;&#x5668;&#xFF0C;&#x6211;&#x4EEC;&#x77E5;&#x9053; python &#x7684;&#x7248;&#x672C;&#x5927;&#x6982;&#x5206;&#x4E3A; 2.x &#x548C; 3.x&#xFF0C; &#x800C;&#x8FD9;&#x4E24;&#x4E2A;&#x7248;&#x672C;&#x4E4B;&#x95F4;&#x4E92;&#x76F8;&#x4E0D;&#x517C;&#x5BB9;&#xFF0C;&#x7531;&#x4E8E;&#x8FD9;&#x4E2A;&#x5386;&#x53F2;&#x539F;&#x56E0;&#x7ED9;&#x5F00;&#x53D1;&#x5E26;&#x6765;&#x7684;&#x56F0;&#x6270;&#x6211;&#x76F8;&#x4FE1;&#x5F88;&#x591A;&#x7AE5;&#x978B;&#x90FD;&#x7ECF;&#x5386;&#x8FC7;&#xFF1B;&#x800C;&#x5305;&#x96C6;&#x5408;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x81EA;&#x5E26;&#x7684;&#x5305;&#x548C;&#x7B2C;&#x4E09;&#x65B9;&#x5305;, &#x7B2C;&#x4E09;&#x65B9;&#x5305;&#x4E00;&#x822C;&#x901A;&#x8FC7; pip &#x6216;&#x8005; easy_install &#x6765;&#x4E0B;&#x8F7D;&#xFF0C;&#x5F53;&#x672C;&#x5730;&#x53EA;&#x6709;&#x4E00;&#x4E2A; python &#x73AF;&#x5883;&#xFF0C;&#x90A3;&#x6240;&#x6709;&#x7A0B;&#x5E8F;&#x7528;&#x5230;&#x7684;&#x5404;&#x79CD;&#x5305;&#x90FD;&#x53EA;&#x80FD;&#x653E;&#x5230;&#x540C;&#x4E00;&#x4E2A;&#x73AF;&#x5883;&#x4E2D;&#x4ECE;&#x800C;&#x5BFC;&#x81F4;&#x73AF;&#x5883;&#x6DF7;&#x4E71;&#xFF0C;&#x8FD9;&#x6837;&#x4E5F;&#x7ED9;&#x5F00;&#x53D1;&#x5E26;&#x6765;&#x4E86;&#x5F88;&#x591A;&#x4E0D;&#x4FBF;&#x3002;</p>
+<p>&#x4EE5;&#x4E0B;&#x95EE;&#x9898;&#x4F60;&#x662F;&#x4E0D;&#x662F;&#x4E5F;&#x9047;&#x5230;&#x4E86;&#x5462;&#xFF01;</p>
+<ul>
+<li>&#x5230;&#x5E95;&#x8BE5;&#x88C5; Python2 &#x5462;&#x8FD8;&#x662F; Python3 &#xFF1F;</li>
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x5B89;&#x88C5; Python &#x65F6;&#x603B;&#x662F;&#x51FA;&#x9519;&#xFF1F;</li>
+<li>&#x600E;&#x4E48;&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;&#x5462;&#xFF1F;</li>
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x63D0;&#x793A;&#x8BF4;&#x5728;&#x5B89;&#x88C5;&#x8FD9;&#x4E2A;&#x5DE5;&#x5177;&#x524D;&#x5FC5;&#x987B;&#x5148;&#x5B89;&#x88C5;&#x4E00;&#x5806;&#x5176;&#x4ED6;&#x4E0D;&#x660E;&#x6240;&#x4EE5;&#x7684;&#x5DE5;&#x5177;&#xFF1F;</li>
+</ul>
+<h2 id="&#x4E3A;&#x4EC0;&#x4E48;&#x7528;-anaconda">&#x4E3A;&#x4EC0;&#x4E48;&#x7528; Anaconda</h2>
+<p><strong>Anaconda</strong> &#x5B8C;&#x7F8E;&#x7684;&#x89E3;&#x51B3;&#x4E86;&#x4E0A;&#x9762;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x5B83;&#x901A;&#x8FC7;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5305;&#x3001;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x3001;Python&#x7248;&#x672C;&#xFF0C;&#x5927;&#x5927;&#x7B80;&#x5316;&#x4E86;&#x4F60;&#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#xFF0C;&#x4E0D;&#x4EC5;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5B89;&#x88C5;&#x3001;&#x66F4;&#x65B0;&#x3001;&#x5378;&#x8F7D;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x800C;&#x4E14;&#x5B89;&#x88C5;&#x65F6;&#x80FD;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x76F8;&#x5E94;&#x7684;&#x4F9D;&#x8D56;&#x5305;&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x80FD;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x9694;&#x79BB;&#x4E0D;&#x540C;&#x8981;&#x6C42;&#x7684;&#x9879;&#x76EE;&#x3002;</p>
+<p>Anaconda &#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5F00;&#x6E90;&#x7684; Python &#x53D1;&#x884C;&#x7248;&#x672C;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x5176;&#x5305;&#x542B;&#x4E86;&#xFF08;&#x63D0;&#x524D;&#x96C6;&#x6210;&#x4E86;&#xFF09;conda&#x3001;Python&#x7B49;&#x4E00;&#x5806;&#x5E38;&#x7528;&#x7684;&#x5B89;&#x88C5;&#x597D;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x3002;</p>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;-conda">&#x4EC0;&#x4E48;&#x662F; conda</h2>
+<p>conda &#x662F;&#x5F00;&#x6E90;&#x5305;&#xFF08;packages&#xFF09;&#x548C;&#x865A;&#x62DF;&#x73AF;&#x5883;&#xFF08;environment&#xFF09;&#x7684;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4; Anaconda &#x662F;&#x901A;&#x8FC7; conda &#x5B9E;&#x73B0;&#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x7BA1;&#x7406;&#x3002;</p>
+<ul>
+<li><p>packages &#x7BA1;&#x7406;<br>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; conda &#x6765;&#x5B89;&#x88C5;&#x3001;&#x66F4;&#x65B0; &#x3001;&#x5378;&#x8F7D;&#x5DE5;&#x5177;&#x5305; &#xFF0C;&#x5E76;&#x4E14;&#x5B83;&#x66F4;&#x5173;&#x6CE8;&#x4E8E;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x76F8;&#x5173;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x3002;&#x5728;&#x5B89;&#x88C5; anaconda &#x65F6;&#x5C31;&#x9884;&#x5148;&#x96C6;&#x6210;&#x4E86;&#x50CF; Numpy&#x3001;Scipy&#x3001; pandas&#x3001;Scikit-learn &#x8FD9;&#x4E9B;&#x5728;&#x6570;&#x636E;&#x5206;&#x6790;&#x4E2D;&#x5E38;&#x7528;&#x7684;&#x5305;&#x3002;&#x53E6;&#x5916;&#x503C;&#x5F97;&#x4E00;&#x63D0;&#x7684;&#x662F;&#xFF0C;conda &#x5E76;&#x4E0D;&#x4EC5;&#x4EC5;&#x7BA1;&#x7406; Python &#x7684;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x5B83;&#x4E5F;&#x80FD;&#x5B89;&#x88C5;&#x975E; python &#x7684;&#x5305;&#x3002;&#x6BD4;&#x5982;&#x5728;&#x65B0;&#x7248;&#x7684; Anaconda &#x4E2D;&#x5C31;&#x53EF;&#x4EE5;&#x5B89;&#x88C5;R&#x8BED;&#x8A00;&#x7684;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883; Rstudio&#x3002;</p>
+</li>
+<li><p>&#x865A;&#x62DF;&#x73AF;&#x5883;&#x7BA1;&#x7406;<br>&#x5728;conda&#x4E2D;&#x53EF;&#x4EE5;&#x5EFA;&#x7ACB;&#x591A;&#x4E2A;&#x865A;&#x62DF;&#x73AF;&#x5883;&#xFF0C;&#x7528;&#x4E8E;&#x9694;&#x79BB;&#x4E0D;&#x540C;&#x9879;&#x76EE;&#x6240;&#x9700;&#x7684;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x4EE5;&#x9632;&#x6B62;&#x7248;&#x672C;&#x4E0A;&#x7684;&#x51B2;&#x7A81;&#x3002;&#x5BF9;&#x7EA0;&#x7ED3;&#x4E8E; Python &#x7248;&#x672C;&#x7684;&#x540C;&#x5B66;&#x4EEC;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x5EFA;&#x7ACB; Python2 &#x548C; Python3 &#x4E24;&#x4E2A;&#x73AF;&#x5883;&#xFF0C;&#x6765;&#x5206;&#x522B;&#x8FD0;&#x884C;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684; Python &#x4EE3;&#x7801;&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x5B89;&#x88C5;-anaconda">&#x5B89;&#x88C5; Anaconda</h2>
+<p>&#x4ECE; <a href="https://www.anaconda.com/download/#macos" target="_blank">Anaconda &#x5B98;&#x7F51;</a> &#x4E0B;&#x8F7D;64&#x4F4D; macOS &#x7248;&#x672C;&#x6309;&#x7167;&#x63D0;&#x793A;&#x5B89;&#x88C5;&#xFF0C;&#x5B89;&#x88C5;&#x7ED3;&#x675F;&#x540E;&#x5728; <code>~/.zshrc</code> &#x4E2D;&#x8FFD;&#x52A0;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x5982;&#x4E0B;&#xFF0C;&#x6CE8;&#x610F;&#x6211;&#x662F;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x5230;&#x4E86;&#x78C1;&#x76D8;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x56E0;&#x6B64;&#x8DEF;&#x5F84;&#x76F4;&#x63A5;&#x662F;<code>/anaconda3/bin</code>&#x3002;</p>
+<blockquote>
+<p>export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/sbin:/anaconda3/bin</p>
+</blockquote>
+<p>&#x4FEE;&#x6539;&#x4FDD;&#x5B58;&#x5B8C;&#x540E;&#xFF0C;&#x5728; terminal &#x6267;&#x884C; <code>source ~/.zshrc</code> &#x4F7F;&#x8BBE;&#x7F6E;&#x7ACB;&#x5373;&#x751F;&#x6548;&#xFF0C;&#x7136;&#x540E;&#x4FBF;&#x53EF;&#x4EE5;&#x5728; terminal &#x4E2D;&#x6267;&#x884C;&#x5404;&#x79CD;&#x64CD;&#x4F5C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-bash">$ conda --version // &#x67E5;&#x770B;&#x5F53;&#x524D;&#x7248;&#x672C;
+$ conda upgrade --all // &#x5347;&#x7EA7;&#x6240;&#x6709;&#x4F9D;&#x8D56;
+$ conda list // &#x5217;&#x51FA;&#x5F53;&#x524D;&#x73AF;&#x5883;&#x7684;&#x6240;&#x6709;&#x5305;
+
+// &#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;&#x5F00;&#x53D1;&#x73AF;&#x5883;
+$ conda create -n learn python=3 // &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB; learn &#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;
+$ conda env list  // &#x5217;&#x51FA;conda&#x7BA1;&#x7406;&#x7684;&#x6240;&#x6709;&#x73AF;&#x5883;
+$ <span class="hljs-built_in">source</span> activate learn // &#x5207;&#x6362;&#x5230;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;
+
+// &#x5E38;&#x7528;&#x547D;&#x4EE4;
+$ conda install requests // &#x5B89;&#x88C5;requests&#x5305;
+$ conda remove requests // &#x5378;&#x8F7D;requets&#x5305;
+$ conda install numpy=1.10 // &#x9650;&#x5B9A;&#x7248;&#x672C;&#x5B89;&#x88C5;
+$ conda remove -n learn --all // &#x5220;&#x9664;learn&#x73AF;&#x5883;&#x53CA;&#x4E0B;&#x5C5E;&#x6240;&#x6709;&#x5305;
+$ conda update requests // &#x66F4;&#x65B0;requests&#x5305;
+$ conda  search search_term // &#x6A21;&#x7CCA;&#x67E5;&#x8BE2;&#x5305;
+$ conda env <span class="hljs-built_in">export</span> &gt; environment.yaml // &#x5BFC;&#x51FA;&#x5F53;&#x524D;&#x73AF;&#x5883;&#x7684;&#x5305;&#x4FE1;&#x606F;
+$ conda env create <span class="hljs-_">-f</span> environment.yaml // &#x7528;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;
+</code></pre>
+<p>&#x5982;&#x679C;&#x8FD8;&#x9700;&#x8981;&#x4E00;&#x4E2A; python2.x &#x7248;&#x672C;&#x7684;&#x73AF;&#x5883;&#xFF0C;&#x5219;&#x76F4;&#x63A5;&#x6267;&#x884C; <code>$ conda create -n learn-py2 python=2.7</code> &#x8FD9;&#x65F6;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x540D;&#x79F0;&#x4E3A; learn-py2 &#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;&#xFF0C;&#x5E76;&#x6307;&#x5B9A; python &#x7248;&#x672C;&#x3002;&#x8FD9;&#x65F6;&#x8FD9;&#x4E2A;&#x73AF;&#x5883;&#x53EA;&#x6709;&#x4E00;&#x4E9B;&#x81EA;&#x5E26;&#x7684;&#x5B98;&#x65B9;&#x5305;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x5E72;&#x51C0;&#x7684;&#x73AF;&#x5883;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6309;&#x7167;&#x9700;&#x8981;&#x81EA;&#x884C;&#x5B89;&#x88C5;&#x7B2C;&#x4E09;&#x65B9;&#x5305;&#x3002;</p>
+<p>&#x5BFC;&#x5165;&#x5BFC;&#x51FA;&#x73AF;&#x5883;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x5305;&#x4FE1;&#x606F;&#x5B58;&#x5165;yaml&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x5F53;&#x9700;&#x8981;&#x91CD;&#x65B0;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x76F8;&#x540C;&#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x65F6;&#x5F88;&#x65B9;&#x4FBF;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E; docker&#x3002;</p>
+<h2 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h2>
+<p>Anaconda &#x7684;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x9694;&#x79BB;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x548C; eclipse &#x7684; workspace &#x7C7B;&#x6BD4;&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528; eclipse &#x5F00;&#x53D1; Java &#x9879;&#x76EE;&#x65F6;&#xFF0C;&#x6709;&#x7684;&#x7CFB;&#x7EDF;&#x8981;&#x6C42; JDK6&#xFF0C;&#x6709;&#x7684;&#x8981;&#x6C42; JDK8&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x521B;&#x5EFA;&#x4E0D;&#x540C; workspace &#x53BB;&#x5206;&#x522B;&#x8BBE;&#x7F6E;&#x7F16;&#x8BD1;&#x73AF;&#x5883;&#x6765;&#x5B9E;&#x73B0;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x5207;&#x6362;&#x3002;&#x800C;&#x5B83;&#x7684;&#x5305;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#x5219;&#x7C7B;&#x4F3C;&#x4E8E;&#x96C6;&#x6210;&#x4E86; Maven &#x80FD;&#x529B;&#x3002;</p>
+<p>&#x5F53;&#x7136; anaconda &#x9664;&#x4E86;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x548C;&#x5305;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#x4E4B;&#x5916;&#x8FD8;&#x5728;&#x4E8E;&#x5176;&#x4E30;&#x5BCC;&#x6570;&#x636E;&#x5206;&#x6790;&#x5305;&#xFF0C;&#x8FD9;&#x91CC;&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x4E86;&#x7528; anaconda &#x7BA1;&#x7406;&#x81EA;&#x5DF1;&#x7684;&#x5F00;&#x53D1;&#x73AF;&#x5883;, &#x540E;&#x9762;&#x4F1A;&#x5BF9;&#x5176;&#x5B83;&#x529F;&#x80FD;&#x53E6;&#x884C;&#x4ECB;&#x7ECD;&#x3002;</p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; jverson.com 2018 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">File Modify: 
+2018-09-13 11:19:40
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Anaconda 安装和使用","level":"1.3.1","depth":2,"next":{"title":"Web Crawlers","level":"1.4","depth":1,"ref":"","articles":[{"title":"使用 requests 爬取链家二手房数据","level":"1.4.1","depth":2,"ref":"","articles":[]},{"title":"免费代理池使用","level":"1.4.2","depth":2,"ref":"","articles":[]}]},"previous":{"title":"Python Usage","level":"1.3","depth":1,"ref":"","articles":[{"title":"Anaconda 安装和使用","level":"1.3.1","depth":2,"path":"anaconda.md","ref":"anaconda.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github","github-buttons","disqus","todo","splitter","tbfed-pagefooter","page-toc-button","-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © jverson.com 2018"},"disqus":{"useIdentifier":false,"shortName":"jverson"},"github":{"url":"https://github.com/jiwenxing/ai"},"todo":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"github-buttons":{"buttons":[{"user":"jiwenxing","repo":"ai","type":"star","size":"small","count":true},{"user":"jiwenxing","repo":"ai","type":"fork","size":"small","count":true}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"Jverson <i@jverson.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Spring Boot","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"Jverson's Blog":"https://jverson.com"}},"gitbook":"*","description":"AI","extension":null},"file":{"path":"anaconda.md","mtime":"2018-09-13T03:19:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-13T04:43:44.658Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
